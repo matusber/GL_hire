@@ -1,0 +1,35 @@
+// $.ajax({
+// 	url: "http://localhost:8081/api/auth/login",
+//         contentType: "application/json",
+// 	method: "POST",
+//         data: '{"userName": "user1", "password": "secret"}'
+            
+// })
+// .done(function(data) {
+// 	console.log(data)
+// })
+
+// $.ajax({
+// 	url: "http://localhost:8081/api/locations",
+
+// 	method: "GET",
+// 	        contentType: "application/json",
+//             beforeSend: function (request)
+//             {
+//                 request.setRequestHeader("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE0ODE4MTUyMTYsInN1YiI6InVzZXIxIn0.FI8GNcXGLqOgd3j_DKzLH9ARkjojQyRH2AvhDwdHAIdrJIts_-Qjogv96blEjSv3qhFM7Dw4_lr35l4Fq8UtnQ");
+//                 request.setRequestHeader("Access-Control-Allow-Origin", "*");
+// request.setRequestHeader("Access-Control-Allow-Methods", "GET");
+// request.setRequestHeader("Access-Control-Allow-Headers", "application/json");
+
+//             },
+// })
+// .done(function(data) {
+// 	console.log(data)
+// })
+
+
+cd Desktop
+cd Project
+ls
+dir
+java -jar ...

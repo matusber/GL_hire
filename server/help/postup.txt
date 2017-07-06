@@ -1,0 +1,22 @@
+Postup:
+
+1. skopiruj si adresar <service>
+2. otvor prikazovy riadok <cmd>
+3. spust server - vypis cestu k adresaru a nakoniec napis prikaz
+	java -jar hire-service-0.0.1-SNAPSHOT.jar server configuration.yaml
+  
+  napr.
+  C:\Users\ja\Desktop\service\java -jar hire-service-0.0.1-SNAPSHOT.jar server configuration.yaml
+	(po uspesnom pripojeni, by si mal/-a vidiet nieco ako na obr. <pripojenie_na_server>)
+  
+4. cmd nechaj bezat a zaroven otvor v chrome stranku <serv>
+5. po nacitani stlac F12
+6. ak sa ti uspesne podarilo poslat requesty, mal/-a by si vidiet v konzole hlasku ako je na obr. <request>
+   (musis si rozkliknut <Object> a v nom <user>, a dole <Array>)
+7. ak vsetko funguje, zatvor stranku
+8. v <cmd> stlac <ctrl+c>, kurzor ti hodi na novy riadok, tam napis <exit>
+
+KONIEC, 
+uspesne si zvladol/-a spustit server a poslat requesty, gratulujem!
+
+	
