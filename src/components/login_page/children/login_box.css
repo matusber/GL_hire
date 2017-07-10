@@ -1,0 +1,32 @@
+@import '../../../common/colors.css';
+
+:root {
+  --left-translate: 50%;
+  --top-translate: 50%;
+}
+
+.login-box {
+  margin: auto;
+  position: absolute;
+  top: var(--left-translate);
+  left: var(--left-translate);
+  transform: translate(-50%, -50%);
+}
+
+.login-box__header {
+  text-align: center;
+}
+
+.login-box__header-logo {
+  width: 80%;
+}
+
+  /*&__header img {
+    width: 80%;
+    height: 10px;
+  }*/
+
+/*.login-box__header-logo {
+  width: 80%;
+  height: 10px;
+}*/
